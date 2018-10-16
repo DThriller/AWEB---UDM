@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.slidebar{
+   background-color:#F5F5F5
+}
+.price {
+    line-height: 22px;
+    height: 22px;
+    font-size: 18px;
+    color: #f57224;
+}
+.sanpham {
+    background-color:#F5F5F5
+}
+
+.sanpham-KM{
+    background: #f57224;
+  
+}
+.tile-sanpham {
+    background-color: white
+}
+.mat-card {
+    background-color: white
+}
+
+.image-card {
+    max-height: 280px;
+}
+.grid-space {
+    clear: both;
+    margin-left: 20px;
+}
+.grid-space2 {
+    clear: both;
+    margin-left: 40px;
+}
+.a {
+    color: #212121
+}
+#xem-them{
+    color: #F5F5F5
+}
+.xemthem{
+    color: #f57224
+}
+.mat-flat-button {
+    background-color: #f57224;
+    padding: 0% 100%;
+}
