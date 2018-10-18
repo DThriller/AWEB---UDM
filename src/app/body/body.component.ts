@@ -1,5 +1,4 @@
-
-
+import { SanphamLazadaComponent } from './../sanpham-lazada/sanpham-lazada.component';
 import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-body',

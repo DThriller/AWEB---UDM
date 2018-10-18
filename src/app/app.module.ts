@@ -51,6 +51,8 @@ import { FooterComponent } from './footer/footer.component';   // them vao day
 import { SanphamComponent } from './sanpham/sanpham.component'; // them vao day
 import { DANHMUCComponent } from './danhmuc/danhmuc.component';  // them vao day
 import { findReadVarNames } from '@angular/compiler/src/output/output_ast';
+import { KhungSanphamComponent } from './khung-sanpham/khung-sanpham.component';
+import { SanphamLazadaComponent } from './sanpham-lazada/sanpham-lazada.component';
 
 // export class DemoMaterialModule {}
 
@@ -61,7 +63,9 @@ import { findReadVarNames } from '@angular/compiler/src/output/output_ast';
     BodyComponent,
     FooterComponent,
     SanphamComponent,
-    DANHMUCComponent
+    DANHMUCComponent,
+    KhungSanphamComponent,
+    SanphamLazadaComponent
   ],
   imports: [
     BrowserModule,

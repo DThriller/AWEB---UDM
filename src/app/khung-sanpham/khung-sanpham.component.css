@@ -1,0 +1,19 @@
+.price {
+    line-height: 22px;
+    height: 22px;
+    font-size: 18px;
+    color: #f57224;
+}
+.tile-sanpham {
+    background-color: white
+}
+.mat-card {
+    background-color: white
+}
+
+.image-card {
+    max-height: 280px;
+}
+mat-grid-list {
+    position: none !important;
+}

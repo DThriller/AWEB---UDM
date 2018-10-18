@@ -1,0 +1,19 @@
+
+    <mat-grid-list  cols=36 rowHeight="50px" role="list" class="sanpham" > 
+      <a href="{{sanpham.links}}">
+        <mat-grid-tile  role="listitem" class="grid-sanpham"
+          colspan=7
+          rowspan=7  >
+          <mat-card >
+              <img  class="image-card" mat-card-image src="{{sanpham.img}}" >
+                <div class="tile-sanpham">
+                  <span>{{sanpham.tile}} </span> <br>
+                  <span class="price"><u>đ</u>{{sanpham.price}}</span>
+                  </div> <!--sanpham them thuoc tinh date - HSD-->
+              </mat-card> 
+            </mat-grid-tile>           
+        </a>
+        </mat-grid-list>
+ 
+
+ 

@@ -1,3 +1,4 @@
+import { KhungSanphamComponent } from './../khung-sanpham/khung-sanpham.component';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,9 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sanpham.component.css']
 })
 export class SanphamComponent implements OnInit {
-
   constructor() { }
-
   ngOnInit() {
   }
 
