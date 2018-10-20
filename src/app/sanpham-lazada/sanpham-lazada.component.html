@@ -1,3 +1,14 @@
-<app-khung-sanpham
-*ngFor="let sanpham of sanphamlazada"
-[sanpham] = "sanpham" ></app-khung-sanpham>
+
+
+<div *ngFor="let sanpham of sanphamlazada">
+    <a href="{{sanpham.links}}" >
+        <mat-card>
+        <img  class="image-card" mat-card-image src="{{sanpham.img}}" >
+        <div class="tile-sanpham">
+            <span>{{sanpham.tile}} </span> <br>
+            <span class="price"><u>đ</u>{{sanpham.price}} </span>
+            </div>
+        </mat-card> 
+        </a> 
+</div>
+

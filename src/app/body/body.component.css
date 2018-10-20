@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    width: 100%;
 }
 .slidebar{
    background-color:#F5F5F5
@@ -23,7 +24,7 @@
     background-color: white
 }
 .mat-card {
-    background-color: white
+    background-color: white;
 }
 
 .image-card {

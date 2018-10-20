@@ -1,4 +1,4 @@
-import { KhungSanphamComponent } from './../khung-sanpham/khung-sanpham.component';
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({

@@ -6,7 +6,7 @@ import { Component, OnInit, Input, ViewChild } from '@angular/core';
   styleUrls: ['./khung-sanpham.component.css']
 })
 export class KhungSanphamComponent implements OnInit {
-  @Input() sanpham: any;
+  // @Input() sanphamlazada: any;
   constructor() { }
   ngOnInit() {
   }

@@ -8,7 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SanphamLazadaComponent implements OnInit {
   sanphamlazada = [
-    {links: '#' , img: './assets/images/Shopee.jpg' , tile: 'Khuyến mãi đặc biệt tháng 10' , price: '40.000'}
+    {links: '#' , img: './assets/images/Shopee.jpg' , tile: 'Khuyến mãi đặc biệt tháng 10' , price: '40.000'} ,
+    {links: '#', img: './assets/images/Shopee.jpg' , tile: 'Khuyến mãi đặc biệt tháng 9', price: '39.000'},
+    {links: '#' , img: './assets/images/Shopee.jpg' , tile: 'Khuyến mãi đặc biệt tháng 10' , price: '40.000'} ,
+    {links: '#' , img: './assets/images/Shopee.jpg' , tile: 'Khuyến mãi đặc biệt tháng 10' , price: '40.000'} ,
+    {links: '#' , img: './assets/images/Shopee.jpg' , tile: 'Khuyến mãi đặc biệt tháng 10' , price: '40.000'} ,
+    {links: '#' , img: './assets/images/Shopee.jpg' , tile: 'Khuyến mãi đặc biệt tháng 10' , price: '40.000'} ,
+    {links: '#' , img: './assets/images/Shopee.jpg' , tile: 'Khuyến mãi đặc biệt tháng 10' , price: '40.000'} ,
+    {links: '#' , img: './assets/images/Shopee.jpg' , tile: 'Khuyến mãi đặc biệt tháng 10' , price: '40.000'} ,
   ];
   constructor() { }
 
