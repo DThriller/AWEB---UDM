@@ -53,6 +53,7 @@ import { DANHMUCComponent } from './danhmuc/danhmuc.component';  // them vao day
 import { findReadVarNames } from '@angular/compiler/src/output/output_ast';
 import { KhungSanphamComponent } from './khung-sanpham/khung-sanpham.component';
 import { SanphamLazadaComponent } from './sanpham-lazada/sanpham-lazada.component';
+import { SanphamTikiComponent } from './sanpham-tiki/sanpham-tiki.component';
 
 // export class DemoMaterialModule {}
 
@@ -65,7 +66,8 @@ import { SanphamLazadaComponent } from './sanpham-lazada/sanpham-lazada.componen
     SanphamComponent,
     DANHMUCComponent,
     KhungSanphamComponent,
-    SanphamLazadaComponent
+    SanphamLazadaComponent,
+    SanphamTikiComponent
   ],
   imports: [
     BrowserModule,

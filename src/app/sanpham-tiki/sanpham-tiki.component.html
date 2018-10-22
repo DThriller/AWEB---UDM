@@ -1,16 +1,16 @@
 <div class="card-group">
     <div class="row">
-         <div class="col-md-3"  *ngFor="let sanpham of sanphamlazada"  >
+         <div class="col-md-3"  *ngFor="let sanpham of sanphamtiki"  >
+             <a href="{{sanpham.links}}">
                 <div class="card">
-                        <a href="{{sanpham.links}}">
                     <img class="card-img-top" src="{{sanpham.img}}" alt="Card image cap">
                     <div class="card-body">
                         <h6 class="card-title" >{{sanpham.tile}}</h6>
                         <hr  width="90%" size="4px" align="center" color="#e0e0e0" /> 
                         <span class="price"><u>đ</u>{{sanpham.price}} </span>
                         </div>
-                    </a>
-                    </div>   
+                    </div>
+                 </a>
             </div>
         </div>
     </div>
