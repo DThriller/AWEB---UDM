@@ -51,7 +51,6 @@ import { FooterComponent } from './footer/footer.component';   // them vao day
 import { SanphamComponent } from './sanpham/sanpham.component'; // them vao day
 import { DANHMUCComponent } from './danhmuc/danhmuc.component';  // them vao day
 import { findReadVarNames } from '@angular/compiler/src/output/output_ast';
-import { KhungSanphamComponent } from './khung-sanpham/khung-sanpham.component';
 import { SanphamLazadaComponent } from './sanpham-lazada/sanpham-lazada.component';
 import { SanphamTikiComponent } from './sanpham-tiki/sanpham-tiki.component';
 
@@ -65,7 +64,6 @@ import { SanphamTikiComponent } from './sanpham-tiki/sanpham-tiki.component';
     FooterComponent,
     SanphamComponent,
     DANHMUCComponent,
-    KhungSanphamComponent,
     SanphamLazadaComponent,
     SanphamTikiComponent
   ],
