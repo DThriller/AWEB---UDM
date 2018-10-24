@@ -1,15 +1,14 @@
 .slidebar{
-    background-color: #F5F5F5;
+    background-color: #d84315;
 }
-.danhmuc{
-    background-color: #f5f5f5; 
+.mat-grid-list  {
+    background: #d84315;
 }
-
 .background-danhmuc{
     text-align: left;
     width: 300px;
     height: 350px;
-    background-color: #001f3f;
+    background-color: #d84315;
 
 }
 .background-danhmuc a {

@@ -1,21 +1,19 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    
       margin: 0;
       padding: 0;
-    
   }
 .slidebar{
-    background-color:#F5F5F5;
+    background-color:#003d33;
 }
-.header {   
-    background-color:#001f3f;
-}
-.icon-bar {
-  width: 130px;
-  background-color: #001f3f;
+mat-grid-list {
+  background: #003d33
 }
 
+.icon-bar {
+  width: 130px;
+  background-color: #003d33;
+}
 .icon-bar a {
   display: block; 
   text-align: center;
@@ -24,15 +22,12 @@
   color: white;
   font-size: 36px;
 }
-
 .icon-bar a:hover {
-  background-color: #001f3f;
+  background-color: #ffb300;
 }
-
 .active {
-  background-color: #4CAF50;
+  background-color: #003d33;
 }
-
 .menu li {
   color: #f1f1f1;
   display: inline-block;
@@ -52,7 +47,7 @@
 }
 /*==Style for menu===*/
 .menu ul {
-  background: #001f3f;
+  background: #003d33;
   list-style-type: none;
   text-align: center;
 }
@@ -68,7 +63,7 @@
 .fa-home {
 
   font-size:40px;
-  width: 40px;
+  width: 60px;
 
 }
 .fa:hover {

@@ -1,8 +1,8 @@
 .Footer{
-    background-color: #001f3f;
+    background-color: #fafafa;
 }
 a {
-    color: aliceblue;
+    color: #212121;
     text-decoration: none;
 }
 a :hover {
@@ -10,12 +10,12 @@ a :hover {
 }
 *{
     margin: 0%;
-    padding: 0%;
+    padding-top: 0.5%;
     width: 100%;
     font-size: 13px;
 }
 .slidebar-footer{
-   background-color:#001f3f
+   background-color:#fafafa
 }
 .btn {
     height: 2rem;
@@ -57,7 +57,4 @@ a :hover {
   .fa-linkedin {
     background: #007bb5;
     color: white;
-  }
-  .CopyRight {
-      background-color: #212121
   }
