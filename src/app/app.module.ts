@@ -7,6 +7,10 @@ import {CdkTableModule} from '@angular/cdk/table';
 import {CdkTreeModule} from '@angular/cdk/tree';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { AppRoutingModule } from './app-routing.module'; //them moi
+import { HomepageComponent } from './homepage/homepage.component';
+import { HotdealComponent } from './hotdeal/hotdeal.component'; //them moi
+
 
 import {MatMenuModule} from '@angular/material/menu' ;
 import {
@@ -54,6 +58,7 @@ import { findReadVarNames } from '@angular/compiler/src/output/output_ast';
 import { SanphamLazadaComponent } from './sanpham-lazada/sanpham-lazada.component';
 import { SanphamTikiComponent } from './sanpham-tiki/sanpham-tiki.component';
 
+
 // export class DemoMaterialModule {}
 
 @NgModule({
@@ -65,7 +70,9 @@ import { SanphamTikiComponent } from './sanpham-tiki/sanpham-tiki.component';
     SanphamComponent,
     DANHMUCComponent,
     SanphamLazadaComponent,
-    SanphamTikiComponent
+    SanphamTikiComponent,
+    HomepageComponent,
+    HotdealComponent
   ],
   imports: [
     BrowserModule,
@@ -81,6 +88,7 @@ import { SanphamTikiComponent } from './sanpham-tiki/sanpham-tiki.component';
     ReactiveFormsModule,
     MatMenuModule,
     MatCardModule,
+    AppRoutingModule
 
   ],
   exports: [

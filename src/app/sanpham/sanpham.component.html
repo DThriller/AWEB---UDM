@@ -1,73 +1,20 @@
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<mat-grid-list  cols=18 rowHeight="350px" role="list" > 
-      <mat-grid-tile  role="listitem" class="slidebar"
-      colspan=2
-      rowspan=1>
-      </mat-grid-tile>
-        <mat-grid-tile  role="listitem" class="danhmuc"
-        colspan=14
-        rowspan=1>
-        <div id="mn-wrapper">
-            <div class="mn-sidebar">
-              <div class="mn-toggle"><i class="fa fa-bars"></i></div>
-              <div class="mn-navblock">
-                <ul class="mn-vnavigation">
-                  <li class="dropdown-submenu">
-                    <a tabindex="-1" href="#">LAZADA THÁNG 10</a>
-                      <ul class="dropdown-menu">
-                        <li><a tabindex="-1" href="#">Deal thời trang nam</a></li>
-                        <li><a href="#">Deal thời trang nữ</a></li>
-                        <li><a href="#">Deal phụ kiện điện thoại</a></li>
-                        <li class="dropdown-submenu">
-                          <a href="#">Deal </a>
-                          <ul class="dropdown-menu parent">
-                            <li style=" border-bottom: 1px solid #ccc;">
-                              <a href="#">Approved Product List</a>
-                          </li>
-                          <li style=" border-bottom: 1px solid #ccc;"><a href="#">Model Portfolios</a></li>
-                          <li style=" border-bottom: 1px solid #ccc;"><a href="#">Non-approved Products</a></li>
-                       </ul>
-                     </li>
-                   </ul>
-                 </li>
-                 <li class="dropdown-submenu">
-                    <a tabindex="-1" href="#">TIKI THÁNG 10</a>
-                      <ul class="dropdown-menu">
-                        <li><a tabindex="-1" href="#">Deal công nghệ</a></li>
-                        <li><a href="#">Deal phụ kiện thời trang</a></li>
-                        <li><a href="#">Deal thời trang nam</a></li>
-                        <li><a href="#">Deal thời trang nữ</a></li>
-                        <li><a href="#">Deal phụ kiện điện thoại</a></li>
-                        <li class="dropdown-submenu">
-                          <a href="#">Deal </a>
-                          <ul class="dropdown-menu parent">
-                            <li style=" border-bottom: 1px solid #ccc;">
-                              <a href="#">Approved Product List</a>
-                          </li>
-                          <li style=" border-bottom: 1px solid #ccc;"><a href="#">Model Portfolios</a></li>
-                          <li style=" border-bottom: 1px solid #ccc;"><a href="#">Non-approved Products</a></li>
-                       </ul>
-                     </li>
-                   </ul>
-                 </li>
-                 
-                 <li><a href="#">SHOPEE THÁNG 10</a></li>
-                 <li><a href="#">ADAYROI THANG 10</a></li>
-               </ul>
-             </div>
-          </div>     
-          </div>
-          <div class="QC">
-          <img src="../assets/images/QC.jpg" width="100%"/>
-          </div>
-
-        </mat-grid-tile>
-      <mat-grid-tile  role="listitem" class="slidebar"
-      colspan=2
-      rowspan=1>
-      </mat-grid-tile>
-    </mat-grid-list> 
-    <div style="background-color: #F5F5F5">
-      <br>
+<div class="card-group">
+    <div class="row">
+         <div class="col-md-3"  *ngFor="let sanpham of sanpham"  >
+                <div class="card">
+                        <a href="{{sanpham.links}}">
+                    <img class="card-img-top" src="{{sanpham.img}}" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title" >{{sanpham.tile}}</h6>
+                        <hr  width="90%" size="4px" align="center" color="#e0e0e0" /> 
+                        <span class="price"><u>đ</u>{{sanpham.price}} </span>
+                        </div>
+                    </a>
+                    </div>   
+            </div>
+        </div>
     </div>
+
+
+
