@@ -7,6 +7,12 @@ import {CdkTableModule} from '@angular/cdk/table';
 import {CdkTreeModule} from '@angular/cdk/tree';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { AppRoutingModule } from './app-routing.module'; //them moi
+import { HomepageComponent } from './homepage/homepage.component';
+import { HotdealComponent } from './hotdeal/hotdeal.component'; //them moi
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap'; 
+
+
 
 import {MatMenuModule} from '@angular/material/menu' ;
 import {
@@ -53,6 +59,8 @@ import { DANHMUCComponent } from './danhmuc/danhmuc.component';  // them vao day
 import { findReadVarNames } from '@angular/compiler/src/output/output_ast';
 import { SanphamLazadaComponent } from './sanpham-lazada/sanpham-lazada.component';
 import { SanphamTikiComponent } from './sanpham-tiki/sanpham-tiki.component';
+import { SliderComponent } from './slider/slider.component'
+
 
 // export class DemoMaterialModule {}
 
@@ -65,9 +73,13 @@ import { SanphamTikiComponent } from './sanpham-tiki/sanpham-tiki.component';
     SanphamComponent,
     DANHMUCComponent,
     SanphamLazadaComponent,
-    SanphamTikiComponent
+    SanphamTikiComponent,
+    HomepageComponent,
+    HotdealComponent,
+    SliderComponent
   ],
   imports: [
+    NgbModule,
     BrowserModule,
     BrowserAnimationsModule,
     MatGridListModule,
@@ -81,6 +93,7 @@ import { SanphamTikiComponent } from './sanpham-tiki/sanpham-tiki.component';
     ReactiveFormsModule,
     MatMenuModule,
     MatCardModule,
+    AppRoutingModule
 
   ],
   exports: [
