@@ -1,6 +1,6 @@
 {
 ##Commit 19/8 = 10:23
-##Commit 20/8 - Not Bypass SSL
+##Commit 30/8 - Not Bypass SSL
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "projects",
